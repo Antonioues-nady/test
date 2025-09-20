@@ -1,0 +1,93 @@
+body {
+    height: 1000px;
+}
+
+.contanier {
+    margin: auto;
+    width: 60%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    padding: 5px 5px;
+
+}
+
+
+.contant {
+    padding-top: 100px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contant h1 {
+    color: red;
+}
+
+.contant p {
+    color: red;
+}
+
+.contant button {
+    background-color: yellow;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.icons {
+    margin: auto;
+    width: 80%;
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.roror {
+    color: blue;
+}
+
+.icons img {
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px 4px;
+    height: 150px;
+    transition: all 2s
+}
+
+.icons img:hover {
+    transform: scale(1);
+
+}
